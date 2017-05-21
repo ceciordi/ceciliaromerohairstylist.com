@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: #ccc9c5;
+
+}
+
+a {
+    -webkit-transition: color 0.13s, border-color 0.13s;
+    -moz-transition: color 0.13s, border-color 0.13s;
+    -ms-transition: color 0.13s, border-color 0.13s;
+    -o-transition: color 0.13s, border-color 0.13s;
+    transition: color 0.13s, border-color 0.13s;
+}
+
+a:hover {
+    color: #7300e6;
+    /*transition-timing-function: ease-in-out;*/
+}
+
+h1 {
+    float: left;
+    margin: 20px;
+}
+
+h1 a {
+    display: inline-block;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-size: 90%;
+    font-weight: 200;
+    letter-spacing: 2px;
+    line-height: 100%;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+#hairstylist {
+	font-size: 80%;
+	font-family: 'BioRhyme Expanded', serif;
+	letter-spacing: 4px;
+}
+
+.main-nav li {
+    float: right;
+    margin: 13px 55px 13px 0;
+    list-style: none;
+}
+
+.main-nav li a {
+    display: inline-block;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+}
+
+.main-nav li:hover a {
+    color: #7300e6;
+    border-bottom-color: #7300e6;;
+}
+
+.main-nav li .social-icon-link  {
+    padding: 0;
+    border-bottom: none;
+}
+
+.icon {
+    font-size: 34px;
+    transition: color 0.13s;
+    color: white;
+}
+
+a:hover .icon {
+    color: #7300e6;
+}
+
+.contact-info {
+	display: inline-block;
+	border: 0.2px solid #000;
+	margin: 0 auto;
+	background-color: rgba(84, 82, 87, 0.19);
+	padding: 3%;
+	color: #000;
+	font-family: 'Lato', sans-serif;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+}
+
+.contact-info a {
+	text-decoration: none;
+	color: #000;
+}
+
+.vert-align {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
